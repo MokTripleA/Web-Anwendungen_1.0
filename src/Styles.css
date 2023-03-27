@@ -1,0 +1,14 @@
+header {
+    background-color: white;
+    margin: 15px auto 0;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Dubai Medium";
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: cadetblue;
+}
