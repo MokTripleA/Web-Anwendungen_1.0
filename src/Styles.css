@@ -122,15 +122,15 @@ img {
     background-color: white;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 3px;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 167px;
+    width: 224px;
 }
 
 .button1 {
@@ -169,22 +169,10 @@ img {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.button4 {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-}
-
-.button4:hover {
-    background-color: cadetblue;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
 .map {
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 300%;
+    top: 103%;
     position: absolute;
 }
 
@@ -206,5 +194,63 @@ img {
 }
 
 .ausstattung {
+    position: fixed;
+    background-color: white;
+    left: 20%;
+    top: 21%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: "Tahoma";
+    border-radius: 10px;
+    padding: 10px 10px;
+    float: left;
+}
 
+.calendar {
+    float: right;
+    right: 10%;
+    top: 11%;
+    position: fixed;
+    width: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 50px rgba(#000, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Tahoma;
+}
+
+.calendar__picture {
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    color: #fff;
+    background: #262626;
+    text-shadow: 0 2px 2px gray;
+    box-sizing: border-box;
+}
+
+.calendar__date {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.calendar__day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.calendar__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #262626;
 }
