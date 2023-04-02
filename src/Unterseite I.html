@@ -6,20 +6,23 @@
     <title>Ferienwohnungen Kiel</title>
     <script src="https://kit.fontawesome.com/b83539defc.js" crossorigin="anonymous"></script>
     <link rel="Stylesheet" href="Styles.css"/>
-    <!link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 
 <body>
 <header>
-    <div id="h2">Ferienwohnungen Kiel</div>
-</header>
 
-<nav>
-    <div id="h1">
-        <i style="text-align: left" class="fa-sharp fa-solid fa-magnifying-glass"></i>
-        <i style="text-align: left; margin-left: 20px" class="fa-sharp fa-solid fa-bars"></i>
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+        <div class="dropdown-content">
+            <a href="main.html"> <i class="fa-solid fa-house"> </i> </a>
+            <a href="unterseiten.html" > Düsternbrook</a>
+            <a href="unterseiten.html" > Mettenhof</a>
+            <a href="unterseiten.html" > Südfriedhof</a>
+
+        </div>
     </div>
-</nav>
+    FeWoMing - Die besten Ferienwohnungen in Kiel und Umgebung
+</header>
 
 <div class="container">
     <div class="slides">
@@ -66,9 +69,7 @@
     </button>
 </div>
 
-<iframe id="Map" class="map"
-        src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3293.7036731662147!2d10.091244687806993!3d54.28626248910706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b257481b76f423%3A0x5d61e2d487490944!2sNSG%20Schulensee%20und%20Umgebung!5e0!3m2!1sde!2sde!4v1680271709678!5m2!1sde!2sde"
-        width="700" height="500" style="border:0;"></iframe>
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1383.6245048962812!2d10.046668049170146!3d54.32216575065845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b255166b7e70f5%3A0x23292b7c040fc110!2sHundeauslauffl%C3%A4che%20Heidenberger%20Teich!5e0!3m2!1sde!2sde!4v1680432818003!5m2!1sde!2sde" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <div id="Übersicht" class="ausstattung">
     <p><i class="fa-solid fa-comment" style="color: #000000;"></i>&nbsp;&nbsp;24/7 Kundensupport</p><br>
@@ -84,7 +85,7 @@
     <p><i class="fa-solid fa-money-check-dollar" style="color: #005201;"></i><strong>&nbsp;&nbsp;129€ pro Nacht (550€ für 5 Nächte!)</strong></p>
     <br>
     <br>
-    <p><strong>Ferienwohnung</strong> geeignet für bis zu vier Personen. <br><br>Die Wohnung befindet sich in der Nähe des <strong>Schulensees</strong> und bietet so einen ganz besonderen Flair.</p><br>
+    <p><strong>Ferienwohnung</strong> geeignet für bis zu vier Personen. <br><br><strong>Willkommen in Mettenhof!</strong> Die Wohnung liegt in der Nähe des <strong>Heidenberger Teichs</strong> und bietet so einen ganz besonderen Flair.</p><br>
     <p>Einkaufen lässt sich mit Auto sehr leicht, der im Preis enthaltene Parkplatz liegt direkt am Gründstück.</p><br>
     <p>Im Haus enthalten sind:</p><br>
     <li>Großes Doppelbett</li>
@@ -109,6 +110,8 @@
         <div class="calendar__day">Fr</div>
         <div class="calendar__day">Sa</div>
         <div class="calendar__day">So</div>
+        <div class="calendar__number"></div>
+        <div class="calendar__number"></div>
         <div class="calendar__number"></div>
         <div class="calendar__number"></div>
         <div class="calendar__number"></div>
@@ -146,7 +149,7 @@
 
 </div>
 
-<div id="Kontakt" class="Kontakt">
+<div id="Kontakt" class="kontakt">
     <br>
     <p><strong>Matthias Josef Steffens</strong> - Inhaber von Dieters Luxusbude!</p><br>
     <p>Bei Fragen bezüglich der Ferienwohnung oder <br> der Umgebung gerne per Anruf oder Mail fragen!</p>
@@ -160,11 +163,14 @@
     <p>Vielen Dank für ihr Interesse!</p>
 </div>
 
-<div class="Foto">
+<div class="foto">
     <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="100px">
 </div>
 
-<footer class="footer">FeWoMIng - Kiel</footer>
+<footer>
+FeWoMIng - Ferienwohnungen Kiel
+</footer>
+
 </body>
 
 </html>
