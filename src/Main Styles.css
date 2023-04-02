@@ -4,7 +4,7 @@
 
 body {
     background-color: cadetblue;
-    font-family: "Lato", ui-rounded;
+    font-family: Lato;
     margin: 0;
 }
 
@@ -28,9 +28,10 @@ footer {
     font-size: 15px;
     text-decoration: none;
     color: black;
-    top: 103%;
+    top: 99%;
     width: 100%;
     position: absolute;
+    margin-bottom: 0;
 }
 
 .column {
@@ -42,7 +43,7 @@ footer {
     border-radius: 10px;
     background-color: #eafdff;
     margin: 1%;
-    font-size: 30px;
+    font-size: 25px;
     box-shadow: 5px 5px 5px darkslategray;
     text-align: left;
 }
@@ -53,7 +54,7 @@ footer {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .column {
         width: 100%;
     }
@@ -110,4 +111,8 @@ footer {
 .dropdown:hover .dropbtn {
     transition: 0.3s ease;
     background-color: cadetblue;
+}
+
+.red {
+    color: red;
 }

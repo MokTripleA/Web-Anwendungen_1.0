@@ -10,7 +10,7 @@ header {
 body {
     text-align: -webkit-left;
     background-color: cadetblue;
-    font-family: "Lato", ui-rounded;
+    font-family: Lato;
     margin: 0;
 }
 
@@ -160,13 +160,12 @@ a {
 
 .bewertungen {
     border-radius: 10px;
+    padding-bottom: 10px;
     display: block;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 500px;
+    margin: 50px 500px 52px 200px;
     background-color: #eafdff;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border: 1px solid lightgrey;
     float: top;
     width: 50%;
@@ -188,7 +187,7 @@ footer {
     width: 100%;
     height: 20px;
     position: absolute;
-    top: 320%;
+    top: 353%;
     bottom: 0;
     right: 0;
     left: 0;

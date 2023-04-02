@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding-bottom: 100px;
     background-color: cadetblue;
-    font-family: "Lato", ui-rounded;
+    font-family: Lato;
 }
 
 header {
@@ -254,12 +254,6 @@ img {
     float: left;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
 .calendar {
     float: right;
     right: 10%;
@@ -351,7 +345,22 @@ footer {
     font-size: 15px;
     text-decoration: none;
     color: black;
-    top: 213%;
+    top: 250%;
     width: 100%;
     position: absolute;
+}
+
+.bewertungen {
+    position: absolute;
+    left: 50%;
+    float: none;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    height: 260px;
+    top: 230%;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
 }
