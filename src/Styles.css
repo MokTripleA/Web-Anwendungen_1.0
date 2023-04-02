@@ -7,6 +7,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    padding-bottom: 100px;
+    background-color: cadetblue;
+    font-family: "Lato", ui-rounded;
+}
+
 header {
     background-color: white;
     text-align: center;
@@ -14,11 +21,11 @@ header {
     margin-bottom: 5px;
     padding: 2px;
     color: black;
-    font-family: Elephant, serif;
 }
 
 .left {
     text-align: left;
+    float: left;
 }
 
 .dropdown {
@@ -31,7 +38,7 @@ header {
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: 2px 10px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 10px 20px 0 rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
 }
@@ -46,7 +53,7 @@ header {
 }
 
 .dropbtn {
-    transition: 0.2s ease;
+    transition: 0.3s ease;
     background-color: white;
     color: black;
     font-size: 20px;
@@ -63,37 +70,27 @@ header {
     text-decoration: none;
     display: block;
 }
+
 .dropdown-content a:hover {
+    transition: 0.3s ease;
     background-color: cadetblue;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: cadetblue;}
+    transition: 0.3s ease;
+    background-color: cadetblue;
+}
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-#h1 {
-    margin: -55px 20px;
-    font-size: 20px;
-    text-align: left;
-    float: left;
-}
-
 #h2 {
     text-align: center;
-    font-family: Elephant;
     font-size: 20px;
     margin: -12px;
     float: inside;
-}
-
-body {
-    margin-bottom: 20%;
-    padding-bottom: 100px;
-    background-color: cadetblue;
 }
 
 .container {
@@ -178,7 +175,6 @@ img {
     top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: "Book Antiqua";
 }
 
 .button {
@@ -253,14 +249,13 @@ img {
     transform: translate(-50%, -50%);
     text-align: left;
     font-size: 15px;
-    font-family: "Book Antiqua";
     border-radius: 10px;
     padding: 10px 10px;
     float: left;
 }
 
-@media screen and (max-width:600px) {
-    .calendar {
+@media screen and (max-width: 600px) {
+    .column {
         width: 100%;
     }
 }
@@ -276,7 +271,6 @@ img {
     box-shadow: 0 5px 20px black;
     border-radius: 8px;
     overflow: hidden;
-    font-family: "Book Antiqua";
 }
 
 .calendar__picture {
@@ -325,7 +319,6 @@ img {
     height: 420px;
     top: 100%;
     padding: 20px;
-    font-family: "Book Antiqua";
 }
 
 .kontakt {
@@ -339,7 +332,6 @@ img {
     background-color: white;
     top: 197%;
     margin-bottom: 200px;
-    font-family: "Book Antiqua";
     padding-left: 20px;
 }
 
@@ -353,7 +345,7 @@ img {
     padding-top: 10px;
 }
 
-footer  {
+footer {
     background-color: white;
     text-align: center;
     font-size: 15px;
@@ -362,5 +354,4 @@ footer  {
     top: 213%;
     width: 100%;
     position: absolute;
-    font-family: Elephant;
 }
