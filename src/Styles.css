@@ -22,15 +22,15 @@ header {
 
 #h2 {
     text-align: center;
-    font-family: "Tahoma", serif;
+    font-family: Elephant;
     font-size: 20px;
     margin: -12px;
     float: inside;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 20%;
+    padding-bottom: 100px;
     background-color: cadetblue;
 }
 
@@ -43,6 +43,8 @@ body {
     transform: translate(-50%, -50%);
     border: 1px solid black;
     overflow: hidden;
+    box-shadow: 0 5px 20px black;
+    border-radius: 8px;
 }
 
 .navigator {
@@ -115,7 +117,7 @@ img {
     top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Tahoma, serif;
+    font-family: "Book Antiqua";
 }
 
 .button {
@@ -172,20 +174,19 @@ img {
 .map {
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 103%;
+    top: 154%;
     position: absolute;
+    border-radius: 8px;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: absolute;
+    top: 220%;
     width: 100%;
-    padding: 5px;
     background-color: white;
     text-align: center;
-    font-size: 10px;
-    font-family: Tahoma, serif;
+    font-size: 15px;
+    font-family: Elephant;
 }
 
 .link {
@@ -199,8 +200,9 @@ img {
     left: 20%;
     top: 21%;
     transform: translate(-50%, -50%);
+    text-align: left;
     font-size: 15px;
-    font-family: "Tahoma";
+    font-family: "Book Antiqua";
     border-radius: 10px;
     padding: 10px 10px;
     float: left;
@@ -214,10 +216,10 @@ img {
     width: 300px;
     background-color: #fff;
     box-sizing: border-box;
-    box-shadow: 0 5px 50px rgba(#000, 0.5);
+    box-shadow: 0 5px 20px black;
     border-radius: 8px;
     overflow: hidden;
-    font-family: Tahoma;
+    font-family: "Book Antiqua";
 }
 
 .calendar__picture {
@@ -253,4 +255,43 @@ img {
     justify-content: center;
     height: 25px;
     color: #262626;
+}
+
+.ueberblick {
+    background: white;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 660px;
+    height: 420px;
+    top: 100%;
+    padding: 20px;
+    font-family: "Book Antiqua";
+}
+
+.Kontakt {
+    position: absolute;
+    width: 680px;
+    height: 280px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    top: 197%;
+    margin-bottom: 200px;
+    font-family: "Book Antiqua";
+    padding-left: 20px;
+}
+
+.Foto {
+    position: absolute;
+    width: 150px;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    top: 197%;
+    float: right;
+    padding-top: 10px;
 }
